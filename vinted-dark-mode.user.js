@@ -9,19 +9,33 @@
 // @description:es  Aplicar un tema oscuro al sitio de Vinted  (dark mode)
 // @namespace       Geekatori
 // @match           *://*.vinted.*/*
-// @match           *://*.vinted.fr/*
-// @match           *://*.vinted.com/*
 // @match           *://*.vinted.es/*
+// @match           *://*.vinted.fr/*
 // @match           *://*.vinted.cz/*
 // @match           *://*.vinted.be/*
+// @match           *://*.vinted.at/*
+// @match           *://*.vinted.hu/*
+// @match           *://*.vinted.it/*
+// @match           *://*.vinted.lt/*
+// @match           *://*.vinted.lu/*
 // @match           *://*.vinted.nl/*
+// @match           *://*.vinted.pl/*
+// @match           *://*.vinted.pt/*
+// @match           *://*.vinted.se/*
+// @match           *://*.vinted.sk/*
+// @match           *://*.vinted.co.uk/*
+// @match           *://*.vinted.com/*
 // @grant           GM.addStyle
-// @version         0.1.4
+// @version         0.1.5
 // @author          Geekatori
 // @license         MIT
 // @run-at          document-idle
 // ==/UserScript==
   
+/*
+Not working yet
+@match *://*.vinted.ca/*
+*/
   
 var css = `
   :root {
