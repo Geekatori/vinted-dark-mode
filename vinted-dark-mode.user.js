@@ -8,7 +8,6 @@
 // @description:nl  SEen donker thema toepassen op de Vinted-site (dark mode)
 // @description:es  Aplicar un tema oscuro al sitio de Vinted  (dark mode)
 // @namespace       Geekatori
-// @match           *://*.vinted.*/*
 // @match           *://*.vinted.es/*
 // @match           *://*.vinted.fr/*
 // @match           *://*.vinted.cz/*
@@ -26,7 +25,7 @@
 // @match           *://*.vinted.co.uk/*
 // @match           *://*.vinted.com/*
 // @grant           GM.addStyle
-// @version         0.1.5
+// @version         0.1.6
 // @author          Geekatori
 // @license         MIT
 // @run-at          document-idle
@@ -34,7 +33,8 @@
   
 /*
 Not working yet
-@match *://*.vinted.ca/*
+vinted.*
+vinted.ca
 */
   
 var css = `
