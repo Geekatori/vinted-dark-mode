@@ -16,7 +16,7 @@
 // @match           *://*.vinted.be/*
 // @match           *://*.vinted.nl/*
 // @grant           GM.addStyle
-// @version         0.1.3
+// @version         0.1.4
 // @author          Geekatori
 // @license         MIT
 // @run-at          document-idle
