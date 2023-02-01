@@ -9,6 +9,12 @@
 // @description:es  Aplicar un tema oscuro al sitio de Vinted  (dark mode)
 // @namespace       Geekatori
 // @match           *://*.vinted.*/*
+// @match           *://*.vinted.fr/*
+// @match           *://*.vinted.com/*
+// @match           *://*.vinted.es/*
+// @match           *://*.vinted.cz/*
+// @match           *://*.vinted.be/*
+// @match           *://*.vinted.nl/*
 // @grant           GM.addStyle
 // @version         0.1.3
 // @author          Geekatori
